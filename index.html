@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--==================== FONT ====================-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+
+        <title>Responsive Portfolio Website</title>
+    </head>
+    <body>
+      <div class="container">
+          <!--==================== HEADER ====================-->
+          <header class="header" id="header">
+            <div class="logo">
+                <img class="logo_picture" src="images/logo.png" alt="logo">
+                <h2 class="logo_title">Excursy</h2>
+            </div>
+
+            <div class="nav">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#" class="nav_link active">Home</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#" class="nav_link">About us</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#" class="nav_link">Our interests</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#" class="nav_link">Values</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#" class="nav_link">Current Projects</a>
+                    </li>
+                </ul>
+
+                <div class="close_toggle">
+                    <i class="ri-close-circle-fill"></i>
+                </div>
+            </div>
+            
+            <div class="btn_header">
+                <p class="btn_signup">Sign Up</p>
+            </div>
+
+            <div class="btn_toggle">
+                <img src="images/menu.svg" alt="">
+            </div>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home grid section" id="home">
+                <div class="home_content">
+                    <h1 class="home_title">Let’s take a 
+                        tour to <span class="active">Blockchain</span>
+                        Technology
+                    </h1>
+                    <div class="home_text text_normal">We are highly focused by blockchain technology that will lead positively to the future web.</div>
+                </div>
+
+                <div class="home_btn">
+                    <button class="btn_started text_normal">Get Started ></button>
+                    <button class="btn_learn text_normal">Learn more</button>
+                </div>
+
+                <div class="home_picture">
+                    <img src="images/Frame.png" alt="logo_title">
+                </div>
+            </section>
+
+            <!--==================== POSTER ====================-->
+            <section class="poster section" id="about">
+                <picture>
+                    <source media="(max-width: 799px)" srcset="images/Group36812.svg">
+                    <source media="(min-width: 800px)" srcset="images/Clients.svg">
+                    <img class="poster_picture" src="images/Clients.svg" alt="Chris standing up holding his daughter Elva">
+                  </picture>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="skills">
+                <div class="about_pictures">
+                    <img src="images/About Us Illustration.svg" alt="">
+                </div>
+                <div class="about_content">
+                    <h2 class="text_title about_title">About Us Illustration</h2>
+                    <div class="text_normal about_description">We generated names based on a multitude of factors and picked the one that resonated with us the most. Our founder first engaged with the blockchain in 2013</div>
+                    <div class="about_table">
+                        <ul class="about_table_list">
+                            <li class="about_table_item">
+                                <div class="about_table_item_title">Project Done</div>
+                                <div class="about_table_item_desc">600+</div>
+                            </li>
+                            <li class="about_table_item">
+                                <div class="about_table_item_title">Happy Clients</div>
+                                <div class="about_table_item_desc">950+</div>
+                            </li>
+                            <li class="about_table_item">
+                                <div class="about_table_item_title">Employee</div>
+                                <div class="about_table_item_desc">30+</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== OUR INTERESTS ====================-->
+            <section class="our_interest section">
+                <h1 class="our_interest text_title">Our Interests</h1>
+                <p class="our_interest_description text_normal">It's the norm these days to lay out a roadmap that gives stakeholders an indication of the direction that the project aspires to go. Inspired by Elon Musk’s 2006 masterplan, these are our skeleton ambitions.</p>
+                <div class="our_interest_table grid">
+                    <div class="blockchain">
+                        <div class="blockchain_logo">
+                            <img src="images/Group 36851.svg" alt="">
+                        </div>
+
+                        <h1 class="blockchain_title">Blockchain product </h1>
+                        <div class="blockchain_description text_normal">Create something novel that has never been done on the blockchain before Build a product</div>
+                        <a href="#" class="read_more text_normal">Read More</a>
+                    </div>
+
+                    <div class="quality product">
+                        <div class="quality_logo">
+                            <img src="images/Group 36846.svg" alt="">
+                        </div>
+
+                        <h1 class="quality_title">Quality product </h1>
+                        <div class="quality_description text_normal">Create something novel that has never been done on the blockchain before Build a product</div>
+                        <a href="#" class="read_more text_normal">Read More</a>
+                    </div>
+
+                    <div class="viable">
+                        <div class="viable_logo">
+                            <img src="images/Group 36837.svg" alt="">
+                        </div>
+
+                        <h1 class="viable_title">Viable product </h1>
+                        <div class="blockchain_description text_normal">Create something novel that has never been done on the blockchain before Build a product</div>
+                        <a href="#" class="read_more text_normal">Read More</a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== OUR VALUES ====================-->
+            <section class="our_values grid section" id="services">
+                <div class="our_values_logo">
+                    <img src="images/Our Values Illustration.svg" alt="">
+                </div>
+                <div class="our_values_content">
+                    <h1 class="our_values_title text_title">Our Values</h1>
+                    <p class="our_values_description text_normal">anftw is a hallmark. The team members may change, but the quality of our project execution will not.An outstanding team can build a product in any industry. Don’t be intimidated by incumbents.</p>
+                    <a href="#" class="our_values_readmore">Read More</a>
+                </div>
+            </section>
+
+            <!--==================== CURRENT PROJECTS ====================-->
+            <section class="current_projects section" id="portfolio">
+                <h1 class="current_projects_title text_title">Current Projects</h1>
+                <div class="current_projects_table grid">
+                    <div class="current_project_item">
+                        <div class="current_projects_logo">
+                            <img src="images/Frame Our project_1.svg" alt="">
+                        </div>
+                        <div class="current_projects_content">
+                            <div class="current_projects_content_title">Certified Great Expectations Lover</div>
+                            <div class="current_projects_content_description text_normal">Certified Great Expectations Lover - To add value to  <span class="read_more text_normal">Read more.</span></div>
+                        </div>
+                    </div>
+
+                    <div class="current_project_item">
+                        <div class="current_projects_logo">
+                            <img src="images/Frame Our Project_2 .svg" alt="">
+                        </div>
+                        <div class="current_projects_content">
+                            <div class="current_projects_content_title">BlockSpace - 
+                                A solar System</div>
+                            <div class="current_projects_content_description text_normal">BlockSpace - We built the first ever accurate model of  <span class="read_more text_normal">Read more.</span></div>
+                        </div>
+                    </div>
+
+                    <div class="current_project_item">
+                        <div class="current_projects_logo">
+                            <img src="images/Frame Our project_3.svg" alt="">
+                        </div>
+                        <div class="current_projects_content">
+                            <div class="current_projects_content_title">0xProxy - A web 3.0 Website </div>
+                            <div class="current_projects_content_description text_normal">BlockSpace - This project was a collaborative exercise.   <span class="read_more text_normal">Read more.</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </section>
+        </main>
+      </div>
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer_logo">
+                <img class="logo_picture" src="images/logo.png" alt="logo">
+                <h2 class="logo_title footer_title">Excursy</h2>
+            </div>
+            <div class="footer_social_media"><img src="images/Frame 66.svg" alt="social"></div>
+            <div class="footer_nav">
+                <ul class="footer_nav_list">
+                    <li class="footer_nav_item"><a href="#" class="footer_nav_link">Home</a></li>
+                    <li class="footer_nav_item"><a href="#" class="footer_nav_link">About us</a></li>
+                    <li class="footer_nav_item"><a href="#" class="footer_nav_link">Our interests</a></li>
+                    <li class="footer_nav_item"><a href="#" class="footer_nav_link">Values</a></li>
+                    <li class="footer_nav_item"><a href="#" class="footer_nav_link">Current Projects</a></li>
+                </ul>
+            </div>
+        </footer>
+        <!--==================== MAIN JS ====================-->
+        <script src="js/main.js"></script>
+    </body>
+</html>
